@@ -7,9 +7,9 @@ import PanoramaViewer from './components/PanoramaViewer';
 function App() {
   return (
     <div className="">
-      {/* <MapComponent />
-      <PanoramaComponent /> */}
-      <PanoramaViewer />
+       <MapComponent />
+      <PanoramaComponent /> 
+    {/* <PanoramaViewer /> */}
     </div>
   );
 }
