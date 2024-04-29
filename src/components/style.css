@@ -1,0 +1,43 @@
+/* MapComponent.css */
+
+.MapContainer {
+    width: 50%;
+    height: 400px; /* Adjust height as needed */
+    padding: 30px;
+  }
+  
+  .MapContainer iframe {
+    width: 100%;
+    height: 100%;
+    border: 1;
+  }
+  
+  
+  /* PanoramaComponent.css */
+  
+  .PanoramaContainer {
+    width: 50%;
+    height: 450px; /* Adjust height as needed */
+    padding: 30px;
+  }
+  
+  .PanoramaContainer iframe {
+    width: 100%;
+    height: 100%;
+    border: 1;
+  }
+  .panorama-container {
+    width: 100%;
+    height: 500px; /* Adjust height as needed */
+    perspective: 1000px;
+  }
+  
+  .panorama-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease-out;
+  }
+  
+  
